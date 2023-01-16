@@ -1,0 +1,26 @@
+.box{
+    position: fixed;
+    display: block;
+    margin-left: 40%;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,#7689de, #a9dce3 ) ;
+    text-align: center;
+    justify-items: center;
+    border-radius: 8px;
+}
+
+h1{
+    color: azure;
+}   
+    
+.box input{
+    margin: 10px;
+    margin-bottom: 10px;
+}
+button{
+   
+    margin-top: 10px;
+}
+h3{
+    background-color:azure;
+}

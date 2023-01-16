@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./calculator.css">
+    <title>calculatrice</title>
+  </head>
+  <body>
+      <div class="box">
+      <h1>Calculator</h1>
+      <hr>
+      <input type="text" name="" id="X" placeholder="X" />
+      <br>
+      <input type="text" name="" id="Y" placeholder="Y" />
+      <br>
+      <button onclick="ADD()"> + </button>
+      <button onclick="Sub()"> - </button>
+      <button onclick="Mult()"> * </button>
+      <button onclick="Div()"> / </button>
+      <h3></h3>
+    </div>
+    <script>
+      let x = document.querySelector("#X");
+      let y = document.querySelector("#Y");
+      let v = document.querySelector("h3");
+      function ADD() {
+        v.innerHTML = Number(x.value) + Number(y.value);
+        
+      }
+      function Mult() {
+        v.innerHTML = Number(x.value) * Number(y.value);
+  
+      }
+      function Sub() {
+        v.innerHTML = Number(x.value) - Number(y.value);
+  
+      }
+      function Div() {
+        v.innerHTML = Number(x.value) / Number(y.value);
+  
+      }
+
+    </script>
+  </body>
+</html>
